@@ -18,6 +18,7 @@
 # <! Functions >
 
 import os
+from var import var
 from telethon import TelegramClient, events, functions, Button
 from telethon.tl.functions.users import GetFullUserRequest
 from pyrogram import *
